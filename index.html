@@ -1,11 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
 <body>
-    <h1>Yipeee</h1>
+
+  <nav class="navbar navbar-expand bg-dark">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">Mijn Bit-Codes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Projects</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Contact
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">E-mail</a></li>
+              <li><button class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modal">Telefoon</button></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://fastly.picsum.photos/id/663/1550/300.jpg?hmac=NFv1ZTz2LPOvYTnwDyIrsPDIkyPZUc1dWDsvGBJ267s"
+        class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Thorben</h2>
+        <h5>Bit-codes</h5>
+        <button class="btn btn-transparent text-white border">Contact me!</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mt-5">
+    <h1>Skills</h1>
+  </div>
+
+  <div class="row w-100">
+    <div class="col text-center border m-3">
+      <div class="border-bottom border-dark">
+        <h4>Programming languages:</h4>
+      </div>
+      <div class="border-bottom">
+        HTML
+        <div class="progress mb-4">
+          <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%"
+            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+      <div class="border-bottom">
+        CSS
+        <div class="progress mb-4">
+          <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%" aria-valuenow="10"
+            aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+      <div class="border-bottom">
+        Javascript
+        <div class="progress mb-4">
+          <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 60%"
+            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+      <div class="border-bottom">
+        Bootstrap
+        <div class="progress mb-4">
+          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 75%"
+            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col text-center m-3 border">
+      <div class="border-bottom border-dark">
+        <h4>Certificates:</h4>
+      </div>
+      <h5 class="m-3">Bit Academy:</h5>
+      <div class="border">Data Engineering</div>
+      <div class="border">Full stack Webdevelopment</div>
+      <h5 class="m-3">Youtube Academy:</h5>
+      <div class="border">Javascript ES6</div>
+      <div class="border">Bootstrap 9000</div>
+    </div>
+  </div>
+
+  <div class="text-center mt-5">
+    <h1>Projects</h1>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="https://fastly.picsum.photos/id/5/300/200.jpg?hmac=OEThX-GUhKMPjHoNILLrmIrAOlqx2XdgXqUf4FMNx5E"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">VSCode-Extensies en enviroment</h6>
+            <a href="#" class="card-text">Bekijk project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <img src="https://fastly.picsum.photos/id/839/300/200.jpg?hmac=SUXz5x0J4uPgTYfLOVjJ74kmVRhwbMaxgixjDqBh-Ts"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">GPS-Computers voor SateliteBike</h6>
+            <a href="#" class="card-text">Bekijk project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <img src="https://fastly.picsum.photos/id/571/300/200.jpg?hmac=6nf5DClSGFBQs2C-1NqSccaJ-YqtqPrkixOkRz-mE9o"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">Vue-Frontend voor HikeGPS</h6>
+            <a href="#" class="card-text">Bekijk project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <img src="https://fastly.picsum.photos/id/1080/300/200.jpg?hmac=IzWxOlx0N4aha3t-HOWMggqij4v8Yr95Gyxm_BfIWS4"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">React-Frontend voor BerryFarm</h6>
+            <a href="#" class="card-text">Bekijk project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <img src="https://fastly.picsum.photos/id/679/300/200.jpg?hmac=wqvQINHCSWR39g_1CDkN4RL33ROLGpqzIZJ-RgJJWlA"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">Backend-Always darkmode</h6>
+            <a href="#" class="card-text">Bekijk project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <img src="https://fastly.picsum.photos/id/304/300/200.jpg?hmac=LkRhv00Pa9R3zD9MMfyYoS93TVQNDMhcf7BNxFEVxsc"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">Lua-Lighting controller</h6>
+            <a href="#" class="card-text">Bekijk project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col text-center mt-5">
+        <h1>Contact</h1>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col form-group">
+            <div class="form-label">Naam:</div>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col form-group">
+            <div class="form-label">E-mail:</div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col form-group">
+            <div class="form-label text-center">Bedrijf:</div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-12 form-group">
+            <div class="form-label text-center">Je bericht:</div>
+            <textarea class="form-control" rows="2"></textarea>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-12 text-center">
+            <button class="btn bg-primary text-white m-3">Verzend</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-3">
+        <div class="row">
+          <div class="col-12 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            <div><h5>Amsterdam, 1062 HG, Nederland</h5></div>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-12 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+            </svg>
+            <div><h5>+01 234 567 89</h5></div>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-12 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+              <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+            </svg>
+            <div><h5>info@bit-academy.nl</h5></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>
